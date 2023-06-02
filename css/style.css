@@ -1,0 +1,98 @@
+@import url(./variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+/* header section */
+header .head-cont{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-evenly;
+    width: 100%;
+    top: 0;
+    height: 86px;
+    z-index: 1000;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    background: var(--color-white);
+}
+.logo{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    width: 12%;
+    height: 100%;
+    border-right: 1px solid rgb(238, 238, 238);
+}
+.logo svg{
+    width: 100%;
+    height: 30px;
+}
+.location{
+    padding: 0px 20px;
+    cursor: pointer;
+}
+.location .location-title{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 3px;
+    word-spacing: 0.5px;
+}
+.location-desc span{
+    transform: translateY(-2px);
+}
+.location .location-desc{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.search-bar input{
+    background-color: transparent;
+    height: 42px;
+    outline: 0;
+    border: 0;
+    width: 100%;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 0px 12px;
+    height: 46px;
+    gap: 8px;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 12px;
+    background: rgb(248, 248, 248);
+    /* color: var(--color-grey); */
+    box-shadow: none;
+}
+.search-bar:hover{
+    background: white;
+}
+
+.login{
+    font-size: 18px;
+    padding: 20px;
+    font-weight: 400;
+}
+.login:hover{
+    cursor: pointer;
+}
+.cart-bt button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 112px;
+    justify-content: center;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    gap: 6px;
+    font-weight: 800px;
+    color: white;
+    background-color: rgb(12, 131, 31);
+}

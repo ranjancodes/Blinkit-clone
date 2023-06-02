@@ -1,0 +1,28 @@
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 96px;;
+}
+.main-cont{
+    max-width: 1200px;
+}
+.banner-1 img{
+    width: 100%;
+}
+.banner-2{
+    display: flex;
+    overflow: auto;
+    width: 97.4%;
+    margin-left:15px;
+    scrollbar-width: none;
+    gap: 22px;
+    margin-top: 18px;
+}
+.banner-2::-webkit-scrollbar{
+    display: none;
+}
+.banner-2 img{
+    width: 335px;
+}
