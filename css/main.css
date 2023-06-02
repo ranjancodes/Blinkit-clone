@@ -14,9 +14,7 @@ main{
 .banner-2{
     display: flex;
     overflow: auto;
-    width: 97.4%;
-    margin-left:15px;
-    scrollbar-width: none;
+    margin: 0px 15px;
     gap: 22px;
     margin-top: 18px;
 }
@@ -24,5 +22,18 @@ main{
     display: none;
 }
 .banner-2 img{
+    cursor: pointer;
     width: 335px;
+}
+
+/* banneer item categories */
+
+.categories{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+}
+.categories img{
+    cursor: pointer;
+    width: 100%;
 }
